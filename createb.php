@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html class="wf-opensans-n3-active wf-opensans-i3-active wf-opensans-n4-active wf-opensans-i4-active wf-opensans-n6-active wf-opensans-i6-active wf-opensans-n7-active wf-opensans-i7-active wf-opensans-n8-active wf-opensans-i8-active wf-montserrat-n4-active wf-montserrat-n7-active wf-lato-n1-active wf-lato-i1-active wf-lato-n3-active wf-lato-i3-active wf-lato-n4-active wf-lato-i4-active wf-lato-n7-active wf-lato-i7-active wf-lato-n9-active wf-lato-i9-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Create Escrow</title>
+		<!--<base href="">--><!-- base href="" -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="CONTENT-LANGUAGE" content="en-US">
+		<meta name="CONTENT-LANGUAGE" content="en-US">
+		<meta name="OWNER" content="support@setescrow.com">
+		<meta name="AUTHOR" content="SetEscrow.com">
+		<meta name="ROBOTS" content="index,follow"> 
+		<meta name="REVISIT-AFTER" content="3days">
+		<meta name="KEYWORDS" content="bitcoin escrow, litecoin escrow, BTC escrow, LTC escrow">
+		<meta name="description" content="Escrow provider for many cryptocurrencies.">
+		<script type="text/javascript">
+			if (top != self) { top.location.replace(self.location.href); }
+		</script>
+	  <link href="createb_files/bootstrap.css" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="createb_files/app3.css">
+  	<script src="createb_files/webfont.js"></script>
+  	<link rel="stylesheet" href="createb_files/css.css"><link rel="stylesheet" href="createb_files/css_002.css"><link rel="stylesheet" href="createb_files/css_002.css"><link rel="stylesheet" href="createb_files/css_002.css"><script>
+    	WebFont.load({
+      	google: {
+        	families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Montserrat:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+      	}
+    	});
+  	</script>
+
+		<meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <link rel="canonical" href="create.html">
+	</head>
+<body data-gr-c-s-loaded="true">
+    <nav class="navbar navbar-static-top">
+      <a href="index.html" class="logo">
+        <img src="createb_files/logo1.png" width="185">
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-dd" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="links navbar-collapse collapse" id="navbar-dd">
+        <ul class="nav navbar-nav">
+        	       
+			<li><a href="create.html">Create Escrow</a></li>
+          <li><a href="check.html">Check Status</a></li>
+          
+
+                  </ul>
+      </div>    
+    </nav><style type="text/css">
+	.breadcrumb {
+		text-align: left;
+	}
+</style>
+<div class="container">
+	<ol class="breadcrumb">
+	  <li class="active">Escrow Options</li>
+	</ol>
+</div>
+<div class="container"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Escrow Options</h3></div><div class="panel-body text-left"><form action="./ok.php" method="post" class="form-horizontal">
+  <div class="form-group">
+    <label for="frmSellerAddr" class="col-sm-3 control-label">Bitcoin Payout Address:</label>
+    <div class="col-sm-3">
+      <input type="text" class="form-control" id="frmSellerAddr" name="payout_address" required="">
+    </div>
+   	<div class="col-sm-6 text-left">
+ 			<label class="control-label">This is where your funds will be sent after the buyer releases them to you.
+ 		</label></div>
+  </div>
+
+  <div class="form-group">    
+  	<label for="frmCancelDays" class="col-sm-3 control-label">Cancel if not funded within:</label>
+  	<div class="col-sm-3">
+   		<input type="number" class="form-control" id="frmCancelDays" name="cancel_days" value="3" required="">
+   	</div>
+   	<div class="col-sm-6 text-left">
+ 			<label class="control-label">day(s). (1-14 days)</label> If funds 
+are received after this date they will be returned to the buyer and 
+neither side will not be obligated to fulfill any terms of the 
+transaction.
+ 		</div>
+  </div>
+
+  <div class="form-group">    
+  	<label for="frmReleaseDays" class="col-sm-3 control-label">Auto-release funds after:</label>
+  	<div class="col-sm-3">
+   		<input type="number" class="form-control" id="frmReleaseDays" name="release_days" aria-describedby="helpRelease" value="7" required="">
+   	</div>
+   	<div class="col-sm-6 text-left">
+ 			<label class="control-label">day(s) if no disputes are raised. (1-90 days)</label>
+ 			<span id="helpRelease" class="help-block">The number of days determines the escrow fee.
+ 				1-3 days: 0.40%,
+ 				4-9 days: 0.65%,
+ 				10-21 days: 0.90%,
+ 				22-30 days: 1.05%,
+ 				22-30 days: 1.05%,
+ 				30+ days: 1.15% + 0.5% per month.
+ 			</span>
+ 		</div>
+  </div>
+
+  <div class="form-group">    
+  	<label for="frmTransDesc" class="col-sm-3 control-label">Description:</label>
+  	<div class="col-sm-9">
+   		<textarea class="form-control" id="frmTransDesc" name="trans_desc" rows="5" placeholder="What is this escrow transaction for? This could be a copy/paste of the items in your cart or some other description. (Optional, but recommended.)" wrap="virtual"></textarea>
+   	</div>
+	<br>
+  <input type="hidden" name="is_seller" value="">
+<input type="hidden" name="amountf" value="">
+<input type="hidden" name="coin" value="BTC">
+<input type="hidden" name="fee_seller" value="">
+<input type="hidden" name="buyer_name" value="">
+<input type="hidden" name="buyer_email" value="">
+<input type="hidden" name="buyer_zip" value="">
+<input type="hidden" name="seller_name" value="">
+<input type="hidden" name="seller_email" value="">
+<input type="hidden" name="seller_wallet" value="">
+
+	<div class="container text-center"><button type="submit" class="btn btn-success">Continue...</button></div>
+  </div>
+
+</form></div></div></div><div class="container text-center"></div><div style="margin-top: 10px;">&nbsp;</div>  <script type="text/javascript" src="createb_files/index.htm"></script>
+  <script type="text/javascript" src="createb_files/index_002.htm"></script>
+
+</body></html>

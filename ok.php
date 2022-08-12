@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html class="wf-opensans-n3-active wf-opensans-i3-active wf-opensans-n4-active wf-opensans-i4-active wf-opensans-n6-active wf-opensans-i6-active wf-opensans-n7-active wf-opensans-i7-active wf-opensans-n8-active wf-opensans-i8-active wf-montserrat-n4-active wf-montserrat-n7-active wf-lato-n1-active wf-lato-i1-active wf-lato-n3-active wf-lato-i3-active wf-lato-n4-active wf-lato-i4-active wf-lato-n7-active wf-lato-i7-active wf-lato-n9-active wf-lato-i9-active wf-active"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+		<title>Create Escrow</title>
+		<!--<base href="">--><!-- base href="" -->
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta http-equiv="CONTENT-LANGUAGE" content="en-US">
+		<meta name="CONTENT-LANGUAGE" content="en-US">
+		<meta name="OWNER" content="support@setescrow.com">
+		<meta name="AUTHOR" content="SetEscrow.com">
+		<meta name="ROBOTS" content="index,follow"> 
+		<meta name="REVISIT-AFTER" content="3days">
+		<meta name="KEYWORDS" content="bitcoin escrow, litecoin escrow, BTC escrow, LTC escrow">
+		<meta name="description" content="Escrow provider for many cryptocurrencies.">
+		<script type="text/javascript">
+			if (top != self) { top.location.replace(self.location.href); }
+		</script>
+	  <link href="ok_files/bootstrap.css" rel="stylesheet">
+	  <link rel="stylesheet" type="text/css" href="ok_files/app3.css">
+  	<script src="ok_files/webfont.js"></script>
+  	<link rel="stylesheet" href="ok_files/css.css"><link rel="stylesheet" href="ok_files/css_002.css"><link rel="stylesheet" href="ok_files/css_002.css"><link rel="stylesheet" href="ok_files/css_002.css"><script>
+    	WebFont.load({
+      	google: {
+        	families: ["Open Sans:300,300italic,400,400italic,600,600italic,700,700italic,800,800italic","Montserrat:400,700","Lato:100,100italic,300,300italic,400,400italic,700,700italic,900,900italic"]
+      	}
+    	});
+  	</script>
+		
+		<meta name="msapplication-TileColor" content="#da532c">
+		<meta name="msapplication-TileImage" content="/images/mstile-144x144.png">
+		<meta name="theme-color" content="#ffffff">
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.3.0/respond.min.js"></script>
+    <![endif]-->
+    <link rel="canonical" href="create.html">
+	</head>
+<body data-gr-c-s-loaded="true">
+    <nav class="navbar navbar-static-top">
+      <a href="index.html" class="logo">
+        <img src="ok_files/logo1.png" width="185">
+      </a>
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-dd" aria-expanded="false" aria-controls="navbar">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <div class="links navbar-collapse collapse" id="navbar-dd">
+        <ul class="nav navbar-nav">
+        	        
+			<li><a href="create.html">Create Escrow</a></li>
+          <li><a href="check.html">Check Status</a></li>
+        
+                  </ul>
+      </div>    
+    </nav><style type="text/css">
+	.breadcrumb {
+		text-align: left;
+	}
+</style>
+<div class="container"><div class="panel panel-default"><div class="panel-heading"><h3 class="panel-title">Transaction Created</h3></div><div class="panel-body text-left">Your escrow transaction has been created with ID <b>23173 </b>
+ You can use this ID any time you want to see these details again.<p></p>
+				<p class="guide">You are almost under Setescrow protection, just one more step left.</p> <p class="guide">Please, transfer <b>BTC</b> to an escrow wallet to finish: 
+<br>
+<center><b>1Labn7gtjHShASXJ2qdFrWDir6XL8Poy74</b> </center></p>
+<br>
+<center>
+<img class="card-img-top" src="http://api.qrserver.com/v1/create-qr-code/?size=80x80&amp;data=bitcoin:1Labn7gtjHShASXJ2qdFrWDir6XL8Poy74" width='15%' alt="Setescrow protection">
+</center>
+<br>
+		</p>
+				<p class="guide">Remember, you can always watch an escrow status <a href="check.html" target="_blank"><u>here</u></a>.</p>
+				<div style="padding-bottom: 20px; text-align: center;">
+				<a href="index.html" class="m-btn">Home</a>
+<br><br>Thank you for choosing an Onion mirror of SafEscrow.com!</div></div></div><div style="margin-top: 10px;">&nbsp;</div>  <script type="text/javascript" src="ok_files/index.htm"></script>
+  <script type="text/javascript" src="ok_files/index_002.htm"></script>
+
+</div></body></html>

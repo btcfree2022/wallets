@@ -1,0 +1,171 @@
+html {
+	width: 100%;
+	height: 100%;
+}
+.float-right {
+	float: right;
+	display: inline-block;
+	border: 1px solid #eee;
+	border-radius: 3px;
+	padding: 0px 8px 3px 8px;
+}
+.float-right img {
+	height: 12px;
+}
+body {
+	margin: 0px;
+	padding: 0px;
+	background: url('../img/es.jpg');
+	background-position: 50% 50%;
+	background-size: cover;
+	min-height: 100%;
+	text-align: center;
+}
+.navbar {
+	height: 65px;
+	margin-bottom: 35px;
+	padding: 5px 16px;
+	background: #2e2e30;
+	text-align: left;
+}
+.navbar .logo {
+	display: inline-block;
+	margin-top: 9px;
+}
+.navbar .links {
+	position: relative;
+	float: right;
+}
+.navbar .links a {
+	padding: 18px 12px;
+    color: #fff !important;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+    text-decoration: none;
+    text-transform: uppercase;
+    position: relative;
+    display: inline-block;
+    vertical-align: top;
+    text-decoration: none;
+    color: #222222;
+    text-align: left;
+    margin-left: auto;
+    margin-right: auto;
+}
+.navbar .links a.btn {
+	padding: 7px 10px;
+	margin-top: 10px;
+	background: #1180d6 !important;
+	border: #1180d6 !important;
+	margin-left: 6px;
+}
+.escrow-form {
+	display: inline-block;
+    width: 350px;
+    padding: 15px 26px;
+    border: 1px none #e8e8e8;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 1px 1px 2px 0 rgba(0, 0, 0, .25);
+    color: #333;
+    text-align: left;
+}
+.form-done, .form-fail {
+	display: none;
+	margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #dddddd;
+}
+.form-fail {
+    background-color: #ffdede;
+}
+.form-done p, .form-fail p {
+	margin: 0px;
+	padding: 0px;
+	margin-bottom: 5px;
+}
+.form-block {
+	display: block;
+	margin-bottom: 20px;
+}
+.form-heading {
+    margin-top: 8px;
+    margin-bottom: 10px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 23px;
+    line-height: 23px;
+    font-weight: 400;
+    text-align: left;
+}
+.escrow-form label {
+	font-family: 'Open Sans', sans-serif;
+    color: gray;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: left;
+}
+.escrow-form .radios {
+	font-family: 'Open Sans', sans-serif;
+    color: #333;
+    margin-bottom: 5px;
+}
+.radios input[type='radio'] {
+	margin: 0;
+	margin-right: 10px;
+	margin-top: 3px;
+	line-height: normal;
+	float: left;
+	font-size: 12px;
+}
+.radios label {
+	font-size: 14px;
+	color: #000;
+	display: inline-block;
+	font-weight: normal;
+	margin: 0px;
+}
+.amount input, .amount button, .amount a {
+	font-size: 12px !important;
+}
+.amount input, .amount button {
+	border: 1px solid #9acff8;
+	background-color: #ddf0ff !important;
+	outline: none !important;
+}
+.amount button {
+	padding: 7.5px 12px;
+	color: #5da4da !important;
+}
+.next {
+	padding-top: 5px;
+	margin-bottom: 10px;
+}
+.next .btn {
+	background: #1180d6 !important;
+	border: #1180d6 !important;
+	padding: 10px 68px;
+	height: auto;
+}
+.navbar-toggle {
+	margin-right: 0px;
+}
+.icon-bar {
+	background: #fff;
+}
+.links li, .links li a {
+	background: transparent !important;
+}
+.links.in, .links.collapsing {
+	float: none;
+	background: #2e2e30;
+	margin-top: 15px;
+	position: fixed;
+	left: 0;
+	right: 0;
+}
+.links.in .btn {
+	margin-left: 17px;
+	margin-bottom: 18px
+}
